@@ -11,8 +11,9 @@ npm install
 # copy file .env
 copy .env.example .env
 
-# generate key
+# generate secret keys 
 php artisan key:generate
+php artisan jwt:secret
 
 # create a new mysql database via phpmyadmin or GUI
 
