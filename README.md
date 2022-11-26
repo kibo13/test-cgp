@@ -36,4 +36,8 @@ php artisan db:seed --class=UserSeeder
 
 # filling tables with test data 
 php artisan db:seed
+
+# login information
+login: kibo13
+password: password
 ```
